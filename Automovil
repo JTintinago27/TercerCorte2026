@@ -1,0 +1,36 @@
+public class Automovil { // Contenedor molde para el objeto
+    
+    
+// Paso 1. Crear o establecer los atributos
+// (Marca precio tipo caja color)
+// Sugerencia (String Double Int Final)
+String marca;
+String caja;
+String color; 
+double precio;
+
+
+// Paso 2. Debe existir un metedo propio java main
+public static void main(String[] args) {
+       // Crear el objeto usando la sintaxis new
+       //Objeto + Nombre = new
+       Automovil Mio = new Automovil (); // Objeto Mio
+       
+       // Asignele los atributos al objeto (.)
+       Mio.marca = "Mercedes Benz";
+       Mio.caja = "Automatica";
+       Mio.color = "Verde";
+       Mio.precio = 18575000;
+       
+       
+ // Paso 3. Objeto ya tiene atributos --> por consola
+ 
+    System.out.println("La marca asignada es: " + Mio.marca);
+    System.out.println("La marca asignada es: " + Mio.caja);
+    System.out.println("La marca asignada es: " + Mio.color);
+    System.out.println("La marca asignada es: " + Mio.precio);
+ 
+       
+      
+    }
+}
