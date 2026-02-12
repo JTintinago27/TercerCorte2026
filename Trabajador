@@ -1,0 +1,38 @@
+public class Trabajador {
+    String Nombre;
+    int Edad;
+    String Profesion;
+    double Salario;
+    
+    public static void main(String[] args) {
+        Trabajador One = new Trabajador ();
+        
+        One.Nombre = "Santiago Mejia";
+        One.Edad = 22;
+        One.Profesion = "Ingeniero De Geomatica";
+        One.Salario = 5000000;
+        
+    Trabajador Too = new Trabajador ();
+    
+        Too.Nombre = "Brayan Stiven Quiñones";
+        Too.Edad = 28;
+        Too.Profesion = "Ingeniero en jugar con las mujeres";
+        Too.Salario = 1500000;
+        
+        
+        System.out.println("" + One.Nombre);
+        System.out.println("" + One.Edad);
+        System.out.println("" + One.Profesion);
+        System.out.println("" + One.Salario);
+        
+        --------------------------------------------------------------------
+        
+        System.out.println(" " + Too.Nombre);
+        System.out.println(" " + Too.Edad);
+        System.out.println(" " + Too.Profesion);
+        System.out.println(" " + Too.Salario);
+                
+    }
+            
+            
+}
